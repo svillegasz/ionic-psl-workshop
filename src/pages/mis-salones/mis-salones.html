@@ -1,0 +1,23 @@
+<!--
+  Generated template for the MisSalonesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>mis-salones</ion-title>
+  </ion-navbar>
+
+</ion-header>
+  <ion-list>
+    <ion-item *ngFor="let salon of salonesList">
+      <h2>{{salon.nombre}}</h2>
+      <p>{{salon.ubicacion}}</p>
+    </ion-item>
+  </ion-list>
+
+<ion-content padding>
+
+</ion-content>
